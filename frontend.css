@@ -1,0 +1,54 @@
+.logo{
+	color:crimson;
+	background-color:black;
+	width=100%;
+	font-size:20px;
+	padding:20px;
+	float:left;
+}
+.nav{
+	width=100%;
+	background-color:black;
+	overflow:auto;
+}
+.nav a{
+	float:right;
+	padding:20px;
+	color:white;
+	text-decoration:none;
+	font-size:17px;
+}
+.nav a:hover{
+	background-color:crimson;
+}
+.active{
+	background-color:black;
+}
+@media screen and (max-width:500px)
+{
+	.nav a{
+		float:none;
+		display:block;
+	}
+}
+.blog{
+	color:crimson;
+	padding-bottom:100px;
+	cursor:pointer;
+}
+.info{
+	text-align:center;
+	color:white;
+}
+.img{
+  
+    width:200px ;
+    height:250px;
+    margin-left:550px;
+    border-radius: 10%;
+}
+.img:hover{
+    color:crimson; 
+    background:crimson; 
+    box-shadow: 0 0 100px crimson; 
+}
